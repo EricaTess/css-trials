@@ -5,29 +5,45 @@
     <style>
 
         body {
-            margin: 50px;
+            margin: 0;
         }
 
         div {
-            width: 100px;
-            height: 100px;
-            background-color: black;
-            display: inline-block;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+
+        .top-box {
+            display:block;
+            background-color: red;
+            margin: 0;
+            width: 350px;
+            height: 200px;
         }
 
-        span {
-            width: 100px;
-            height: 100px;
-            background-color: black;
-            display: inline-block;
-            margin-left: 50px;
+        .bottom-box {
+            background-color: blue;
+            display: block;
+            margin: 0;
+            width: 350px;
+            height: 200px;
         }
 
     </style>
   </head>
 
   <body>
-    <div></div><span></span>
+    <div class="top-box">
+        <div></div><div></div>
+    </div>
+    <div class="bottom-box">
+        <div></div><div></div>
+    </div>
+
     
   </body>
 
